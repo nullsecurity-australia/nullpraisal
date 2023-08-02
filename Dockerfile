@@ -1,8 +1,8 @@
-FROM golang:1.11-alpine
-LABEL maintainer="sudorandom <https://github.com/evepraisal/go-evepraisal>"
-WORKDIR $GOPATH/src/github.com/evepraisal/go-evepraisal
+FROM golang:1.20-alpine
+LABEL maintainer="Deepwater Hooligans <https://github.com/deepwaterhooligans/go-evepraisal>"
+WORKDIR $GOPATH/src/github.com/DeepwaterHooligans/go-evepraisal
 RUN apk --update add --no-cache --virtual build-dependencies git gcc musl-dev make bash && \
-    git clone https://github.com/evepraisal/go-evepraisal.git . && \
+    git clone https://github.com/DeepwaterHooligans/go-evepraisal.git . && \
     export GO111MODULE=on ENV=prod && \
     make setup && \
     make build && \
