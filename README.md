@@ -1,5 +1,5 @@
-# Evepraisal
-Evepraisal is a bulk-price estimator for Eve Online.
+# nullpraisal
+nullpraisal is a bulk-price estimator for Eve Online.
 
 ## Docker Instructions (production)
 The following was tested on Ubuntu Server 18.10
