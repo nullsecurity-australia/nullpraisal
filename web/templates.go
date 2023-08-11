@@ -55,7 +55,7 @@ var selectableMarkets = []namedThing{
 	{Name: "amarr", DisplayName: "Amarr"},
 	{Name: "dodixie", DisplayName: "Dodixie"},
 	{Name: "hek", DisplayName: "Hek"},
-	{Name: "rens", DisplayName: "Rens"}
+	{Name: "rens", DisplayName: "Rens"},
 }
 
 var selectableVisibilities = []namedThing{
