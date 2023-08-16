@@ -16,7 +16,7 @@ func fetchURL(ctx context.Context, client *pester.Client, url string, r interfac
 		return err
 	}
 
-	req.Header.Add("User-Agent", "go-evepraisal")
+	req.Header.Add("User-Agent", "nullpraisal/v3-ccpfix peer@nullsec.au")
 	resp, err := client.Do(req.WithContext(ctx))
 	if err != nil {
 		return err
