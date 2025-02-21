@@ -62,12 +62,8 @@ var SpecialRegions = []struct {
 		systems: []int64{30002510, 30002526},
 	}, {
 		// regionID: 10000058
-		name:    "b17o-r",
-		systems: []int64{30004590},
-	}, {
-		// regionID: 10000060
-		name:    "1dq1-a",
-		systems: []int64{30004759},
+		name:    "c-n4od",
+		systems: []int64{30004600},
 	},
 }
 
